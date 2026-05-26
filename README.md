@@ -4,356 +4,371 @@ Experimental orbital dynamics study based on phase-modulated effective gravity o
 
 ---
 
-# Introducción
+# Introduction
 
-Este repositorio presenta un estudio experimental independiente y reproducible sobre dinámica orbital no singular utilizando operadores geométricos efectivos derivados del marco GEO (Geometría Oculta).
+This repository presents an independent and reproducible experimental study on non-singular orbital dynamics using effective geometric operators derived from the GEO (Hidden Geometry) framework.
 
-El objetivo principal de este trabajo no es reemplazar formalmente a Newton o Einstein, sino explorar si ciertas modulaciones geométricas simples pueden reproducir trayectorias orbitales coherentes que difieren de las órbitas cerradas clásicas.
+The primary objective of this work is not to formally replace Newtonian gravity or General Relativity, but to explore whether simple geometric phase modulations can reproduce coherent orbital trajectories that differ from classical closed orbits.
 
-El estudio se centra particularmente en:
+This study focuses particularly on:
 
-- órbitas tipo roseta,
-- operadores de fase,
-- modulación efectiva de fuerza,
-- geometría dinámica,
-- desviación orbital acumulativa,
-- y gravedad efectiva dependiente de fase.
+- rosette-type orbital trajectories,
+- phase operators,
+- effective force modulation,
+- dynamic geometry,
+- accumulated orbital deviation,
+- and phase-dependent effective gravity.
 
 ---
 
-# Relación con el marco GEO
+# Relation to the GEO Framework
 
-Este estudio es una extensión experimental del marco original GEO:
+This study is an experimental extension of the original GEO framework:
 
 👉 LINK (https://github.com/LeoTorreblanca/GEO-hidden-geometry-framework)
 
-El marco GEO original desarrolla:
 
-- operadores geométricos efectivos,
-- estructura dual dinámica,
-- geometría proyectiva,
-- dinámica de crecimiento cosmológico,
-- tensión de Hubble,
-- y relaciones observacionales emergentes.
+The original GEO framework develops:
 
-Este laboratorio orbital toma parte de esos operadores y los aplica exclusivamente al régimen gravitacional orbital.
+- effective geometric operators,
+- dynamic dual structures,
+- projective geometry,
+- cosmological growth dynamics,
+- Hubble tension studies,
+- and emergent observational relations.
 
----
-# Filosofía del estudio
-
-La hipótesis experimental de GEO plantea que la gravedad observable podría no depender únicamente de masa estática, sino también de operadores geométricos dinámicos internos.
-
-En este enfoque:
-
-- la masa clásica actúa como fuente,
-- pero la geometría efectiva modula la trayectoria,
-- introduciendo:
-  - precesión,
-  - deformación orbital,
-  - deriva acumulativa,
-  - y estructuras tipo roseta.
-
-La idea central no es eliminar la gravedad clásica, sino estudiar si existen correcciones geométricas efectivas capaces de modificar dinámicamente el comportamiento orbital.
+This orbital laboratory isolates part of those operators and applies them exclusively to the orbital gravitational regime.
 
 ---
 
-# Fórmula pública experimental
+# Study Philosophy
 
-La ley pública utilizada en este laboratorio es:
+The experimental GEO hypothesis proposes that observable gravity may not depend exclusively on static mass, but also on internal dynamic geometric operators.
+
+Within this approach:
+
+- classical mass acts as the source,
+- while effective geometry modulates the trajectory,
+- introducing:
+  - precession,
+  - orbital deformation,
+  - accumulated drift,
+  - and rosette-like structures.
+
+The central idea is not to eliminate classical gravity, but to investigate whether effective geometric corrections may dynamically alter orbital behavior.
+
+---
+
+# Public Experimental Formula
+
+The public law explored in this laboratory is:
 
 F_GEO(r,θ) = ( G · M_eff(r) / r² ) · cos(2θ(r))
 
-donde:
+where:
 
-| operador | interpretación |
+| Operator | Interpretation |
 |---|---|
-| M_eff(r) | masa efectiva dinámica |
-| r | radio orbital |
-| θ(r) | operador de fase geométrica |
-| cos(2θ) | modulación geométrica efectiva |
+| M_eff(r) | Dynamic effective mass |
+| r | Orbital radius |
+| θ(r) | Geometric phase operator |
+| cos(2θ) | Effective geometric modulation |
 
 ---
 
-# Interpretación geométrica
+# Geometric Interpretation
 
-En GEO:
+Within the GEO framework:
 
-- la fuerza no es completamente estática,
-- la geometría puede modular la interacción,
-- y la fase orbital se transforma en parte activa de la dinámica.
+- force is not considered completely static,
+- geometry may actively modulate the interaction,
+- and orbital phase becomes part of the dynamical structure itself.
 
-El operador:
+The operator:
 
 cos(2θ)
 
-introduce regiones:
+introduces:
 
-- constructivas,
-- destructivas,
-- compresivas,
-- y expansivas,
+constructive regions,
+destructive regions,
+compressive behavior,
+and expansive behavior,
 
-sobre la trayectoria orbital.
+across the orbital trajectory.
 
-Esto genera estructuras dinámicas que no aparecen naturalmente en órbitas Newtonianas cerradas.
+This produces dynamic structures that do not naturally emerge in classical closed Newtonian orbits.
+
+Instead of a perfectly periodic ellipse, the trajectory evolves through geometric phase modulation, generating:
+
+orbital precession,
+accumulated angular drift,
+and rosette-type structures.
+
+The resulting behavior suggests that the trajectory may be influenced not only by radial distance, but also by an effective internal geometric phase.
+---
+# Experimental Objective
+
+This repository aims to:
+
+- isolate the orbital phenomenon,
+- clean and preserve the experimental data,
+- make the analysis reproducible,
+- compare GEO against Newtonian dynamics,
+- visualize geometric operators,
+- and enable independent mathematical auditing.
+
+The objective is not to claim a definitive physical theory, but to present a coherent and reproducible experimental system.
 
 ---
 
-# Objetivo experimental
+# Step 1 — Orbital Reconstruction
 
-Este repositorio busca:
+The first analysis reconstructs the full trajectory using only the data exported from the GEO system.
 
-- aislar el fenómeno orbital,
-- limpiar los datos experimentales,
-- hacer reproducible el análisis,
-- comparar GEO contra Newton,
-- visualizar operadores geométricos,
-- y permitir auditoría matemática independiente.
+The dataset contains:
 
-El objetivo no es afirmar una teoría definitiva, sino presentar un sistema experimental coherente y reproducible.
-
-
-# Paso 1 — Reconstrucción orbital
-
-El primer análisis del laboratorio reconstruye la trayectoria completa utilizando exclusivamente los datos exportados por el sistema GEO.
-
-Los datos contienen:
-
-- posición espacial,
-- radio orbital,
-- fuerza neta,
-- gap geométrico,
-- operador de freno,
-- y evolución dinámica paso a paso.
-
+- spatial position,
+- orbital radius,
+- net effective force,
+- geometric gap,
+- brake operator,
+- and step-by-step dynamical evolution.
+  
 ---
+## Observed Result
 
-## Resultado observado
+The trajectory does not converge toward a classical closed orbit.
 
-La trayectoria no converge hacia una órbita cerrada clásica.
+Instead, an emergent structure appears in the form of:
 
-En su lugar emerge una estructura tipo:
+- an orbital rosette,
+- with accumulated precession,
+- and progressive periapsis rotation.
 
-- roseta orbital,
-- con precesión acumulativa,
-- y rotación progresiva del periapsis.
-
-Esto puede observarse directamente en:
+This behavior can be directly observed in:
 
 - `geo_rosette_orbit.png`
 - `geo_newton_vs_geo_orbit.png`
 
 ---
 
-## Observación principal
+## Main Observation
 
-En dinámica Newtoniana clásica:
+In classical Newtonian dynamics:
 
-- una órbita estable cerrada mantiene periodicidad exacta.
+- a stable closed orbit preserves exact periodicity.
 
-En GEO:
+Within GEO:
 
-- la órbita evoluciona angularmente,
-- cambia su orientación,
-- y acumula desviación geométrica.
+- the orbit evolves angularly,
+- changes its orientation over time,
+- and accumulates geometric deviation.
+
+The resulting trajectory therefore behaves as a dynamically modulated orbital system rather than a purely static gravitational ellipse.
+---
+## Observable Physical Result
+
+The system exhibits:
+
+- radial drift,
+- angular variation,
+- structural coherence,
+- and non-periodic repetition.
+
+This transforms the trajectory into a geometric dynamical system rather than a purely gravitational one.
+
+The orbital evolution therefore appears to depend not only on radial distance, but also on an internal geometric phase modulation.
 
 ---
 
-## Resultado físico observable
+# Step 2 — Newton vs GEO Comparison
 
-El sistema presenta:
+The second analysis directly compares:
 
-- deriva radial,
-- variación angular,
-- coherencia estructural,
-- y repetición no periódica.
-
-Esto convierte la trayectoria en un sistema dinámico geométrico y no únicamente gravitacional.
-
----
-
-# Paso 2 — Comparación Newton vs GEO
-
-El segundo análisis compara directamente:
-
-## Modelo Newtoniano clásico
+## Classical Newtonian Model
 
 F_N = GM / r²
 
-contra
+against
 
-## Modelo GEO experimental
+## Experimental GEO Model
 
 F_GEO(r,θ) = ( G · M_eff(r) / r² ) · cos(2θ(r))
+F_N = GM / r²
+
+---
+## Experimental Result
+
+Newtonian dynamics reproduces:
+
+- closed orbits,
+- elliptical stability,
+- and classical periodicity.
+
+The GEO model reproduces:
+
+- orbital rotation,
+- accumulated drift,
+- rosette-type structures,
+- and effective geometric transitions.
 
 ---
 
-## Resultado experimental
+## Main Finding
 
-Newton reproduce:
+The observed deviation does not appear as random noise.
 
-- órbitas cerradas,
-- estabilidad elíptica,
-- periodicidad clásica.
+Instead, the dynamics:
 
-GEO reproduce:
+- preserves coherence,
+- maintains structural periodicity,
+- and evolves following the geometric phase operator.
 
-- rotación orbital,
-- deriva acumulativa,
-- estructura roseta,
-- transición geométrica efectiva.
+This suggests that effective geometry actively participates in the orbital trajectory itself.
 
+Rather than behaving as a simple perturbation, the phase modulation appears synchronized with the evolution of the orbit.
 ---
 
-## Hallazgo principal
+# Step 3 — Phase Operator
 
-La desviación no aparece como ruido aleatorio.
-
-La dinámica:
-
-- conserva coherencia,
-- mantiene periodicidad estructural,
-- y evoluciona siguiendo el operador geométrico.
-
-Esto sugiere que la geometría efectiva participa activamente de la trayectoria.
-
----
-
-# Paso 3 — Operador de fase
-
-Uno de los resultados más importantes del estudio es la aparición estable del operador:
+One of the most important results of the study is the stable emergence of the operator:
 
 cos(2θ)
 
 ---
+## Observed Behavior
 
-## Comportamiento observado
+The operator:
 
-El operador:
+- oscillates coherently,
+- modulates the effective force,
+- synchronizes orbital regions,
+- and accompanies dynamical maxima and minima.
 
-- oscila de forma coherente,
-- modula la fuerza efectiva,
-- sincroniza regiones orbitales,
-- y acompaña máximos y mínimos dinámicos.
+The generated diagnostics reveal:
 
-Los gráficos muestran:
+- phase inversion,
+- angular transitions,
+- constructive regions,
+- and destructive regions.
 
-- inversión de fase,
-- transición angular,
-- regiones constructivas,
-- y regiones destructivas.
+Rather than behaving as numerical instability or random perturbation, the phase operator evolves smoothly across the orbital trajectory and remains geometrically correlated with the dynamical structure of the system.
+---
+## Geometric Interpretation
+
+Within GEO, the orbit does not evolve exclusively through radial distance.
+
+Instead, the angular phase modifies the effective interaction strength.
+
+This introduces:
+
+- dynamic modulation,
+- orbital compression,
+- effective expansion,
+- and accumulated precession.
+
+The trajectory therefore behaves as a geometrically phase-modulated system rather than a purely static gravitational orbit.
 
 ---
 
-## Interpretación geométrica
+# Step 4 — Gap and Brake Operators
 
-En GEO, la órbita no evoluciona únicamente por distancia radial.
+The laboratory also identifies two emergent operators:
 
-La fase angular modifica la intensidad efectiva de la interacción.
+## Gap Operator
 
-Esto introduce:
+Represents projective geometric separation.
 
-- modulación dinámica,
-- compresión orbital,
-- expansión efectiva,
-- y precesión acumulativa.
+## Brake Operator
+
+Represents effective angular damping.
+
+---
+## Experimental Result
+
+Both operators:
+
+- exhibit structural stability,
+- show temporal correlation,
+- and appear synchronized with the phase operator.
+
+The maxima of the gap and brake operators coincide with:
+
+- curvature transitions,
+- radial evolution changes,
+- and regions of orbital deformation.
 
 ---
 
-# Paso 4 — Operadores Gap y Brake
+## Important Result
 
-El laboratorio identifica además dos operadores emergentes:
+This suggests that:
 
-## Gap operator
+- the trajectory contains internal geometric structure,
+- and that the observed dynamics may not depend exclusively on classical gravity.
 
-Representa separación geométrica proyectiva.
+Instead, the orbital evolution appears coupled to additional effective geometric operators that actively participate in the modulation of the trajectory.
 
-## Brake operator
+---
+# Step 5 — Effective Curvature
 
-Representa amortiguación angular efectiva.
+The final analysis computes a geometric curvature proxy using the complete orbital trajectory.
 
 ---
 
-## Resultado experimental
+## Result
 
-Ambos operadores:
+The curvature:
 
-- muestran estabilidad estructural,
-- presentan correlación temporal,
-- y aparecen sincronizados con el operador de fase.
-
-Los máximos de gap y brake coinciden con:
-
-- cambios de curvatura,
-- transición radial,
-- y regiones de deformación orbital.
+- oscillates periodically,
+- maintains global coherence,
+- and follows the evolution of the phase operator.
 
 ---
 
-## Resultado importante
+## Interpretation
 
-Esto sugiere que:
+The orbital geometry appears to respond to:
 
-- la trayectoria contiene estructura interna,
-- y que la dinámica observada no depende únicamente de gravedad clásica.
+- active regions,
+- angular inversion,
+- and effective geometric modulation.
+
+This suggests that the orbit may be interpreted as a trajectory evolving within a dynamic geometric structure rather than solely within a static gravitational potential.
+
+The curvature evolution therefore behaves consistently with the phase-modulated dynamics observed throughout the laboratory diagnostics.
+---
+# Global Laboratory Results
+
+The study consistently reproduces:
+
+- rosette-type orbital structures,
+- accumulated precession,
+- angular modulation,
+- non-closed orbital deviation,
+- and internally coherent geometric dynamics.
+
+Across the generated diagnostics, the orbital behavior remains structurally stable while exhibiting persistent geometric modulation synchronized with the phase operator.
 
 ---
 
-# Paso 5 — Curvatura efectiva
+# Experimental Importance
 
-El análisis final calcula un proxy geométrico de curvatura utilizando la trayectoria completa.
+This laboratory does not claim a definitive physical theory.
 
+Its purpose is to:
+
+- document a reproducible phenomenon,
+- publish observable operators,
+- allow independent mathematical auditing,
+- and open geometric discussion regarding phase-modulated orbital dynamics.
+
+The repository is therefore intended as an experimental and reproducible research environment rather than a finalized cosmological or gravitational model.
 ---
+# Reproducibility
 
-## Resultado
-
-La curvatura:
-
-- oscila periódicamente,
-- mantiene coherencia global,
-- y sigue la evolución del operador de fase.
-
----
-
-## Interpretación
-
-La geometría orbital parece responder a:
-
-- regiones activas,
-- inversión angular,
-- y modulación geométrica efectiva.
-
-Esto sugiere que la órbita puede interpretarse como una trayectoria dentro de una geometría dinámica y no solamente dentro de un potencial gravitatorio estático.
-
----
-
-# Resultados globales del laboratorio
-
-El estudio reproduce consistentemente:
-
-- órbitas tipo roseta,
-- precesión acumulativa,
-- modulación angular,
-- desviación no cerrada,
-- y coherencia geométrica interna.
-
----
-
-# Importancia experimental
-
-Este laboratorio no afirma una teoría física definitiva.
-
-Su propósito es:
-
-- documentar un fenómeno reproducible,
-- publicar operadores observables,
-- permitir auditoría matemática,
-- y abrir discusión geométrica independiente.
-
----
-# Reproducibilidad
-
-Todos los resultados pueden reproducirse ejecutando:
+All results presented in this laboratory can be reproduced by executing:
 
 ```bash
 python scripts/geo_orbital_rosette_analysis.py
@@ -371,14 +386,14 @@ python scripts/geo_orbital_formula_diagnostic.py
 
 ## `geo_orbital_rosette_analysis.py`
 
-Reconstruye:
+Reconstructs:
 
-- trayectoria orbital,
-- evolución radial,
-- fuerza neta,
-- y métricas orbitales básicas.
+- orbital trajectory,
+- radial evolution,
+- net effective force,
+- and basic orbital metrics.
 
-Genera:
+Generates:
 
 - `geo_rosette_orbit.png`
 - `geo_rosette_radius.png`
@@ -388,19 +403,19 @@ Genera:
 
 ## `geo_orbital_newton_vs_geo.py`
 
-Realiza la comparación entre:
+Performs the comparison between:
 
-- órbita Newtoniana cerrada,
-- y trayectoria GEO tipo roseta.
+- a closed Newtonian orbit,
+- and the GEO rosette-type trajectory.
 
-Calcula:
+Computes:
 
-- deriva radial,
-- error de cierre,
-- desplazamiento angular,
-- y precesión acumulativa.
+- radial drift,
+- closure error,
+- angular displacement,
+- and accumulated precession.
 
-Genera:
+Generates:
 
 - `geo_newton_vs_geo_orbit.png`
 - `geo_newton_vs_geo_radial_drift.png`
@@ -410,21 +425,21 @@ Genera:
 
 ## `geo_orbital_formula_diagnostic.py`
 
-Analiza la ley efectiva pública GEO:
+Analyzes the public GEO effective law :
 
 ```text
 F_GEO(r,θ) = ( G · M_eff(r) / r² ) · cos(2θ(r))
 ```
 
-y reconstruye:
+and reconstructs:
 
-- operador de fase,
-- relación de fuerza efectiva,
-- gap geométrico,
+- phase operator,
+- effective force relation,
+- geometric gap,
 - brake operator,
-- y proxy de curvatura.
+- and curvature proxy.
 
-Genera:
+Generates:
 
 - `geo_force_law_comparison.png`
 - `geo_phase_operator.png`
@@ -435,38 +450,37 @@ Genera:
 
 ---
 
-# Dataset utilizado
+# Dataset Used
 
-El estudio utiliza:
+The study uses:
 
 ```text
 data/trayectoria_roseta.csv
 ```
 
-que contiene:
+which contains:
 
-| columna | descripción |
+| column | Description |
 |---|---|
-| paso | paso temporal |
-| x | posición x |
-| y | posición y |
-| radio | radio orbital |
-| f_net | fuerza efectiva |
-| gap | operador gap |
-| freno | operador brake |
+| paso | simulation step |
+| x | x position |
+| y | y position |
+| radio | orbital radius |
+| f_net | effective net force |
+| gap | geometric gap operator |
+| freno | brake operator |
 
 ---
+# Dependencies
 
-# Dependencias
-
-Requiere:
+Requires:
 
 - Python 3.10+
 - numpy
 - pandas
 - matplotlib
 
-Instalación rápida:
+Quick installation:
 
 ```bash
 pip install numpy pandas matplotlib
@@ -474,7 +488,7 @@ pip install numpy pandas matplotlib
 
 ---
 
-# Estructura del repositorio
+# Repository Structure
 
 ```text
 GEO-Gravity-Dynamics-Lab/
@@ -491,12 +505,23 @@ GEO-Gravity-Dynamics-Lab/
 
 ---
 
-# Estado experimental
+# Experimental Status
 
-Este estudio se encuentra en etapa experimental y abierta a auditoría independiente.
+This study remains in an experimental stage and is open to independent auditing.
 
-El objetivo del repositorio es:
+The purpose of this repository is to:
 
-- permitir reproducibilidad,
-- facilitar inspección matemática,
-- y documentar observaciones geométricas emergentes derivadas del marco GEO.
+- ensure reproducibility,
+- facilitate mathematical inspection,
+- and document emergent geometric observations derived from the GEO framework.
+
+The repository is intended as a public experimental laboratory for orbital geometric dynamics and phase-modulated gravitational behavior.
+
+No definitive physical claim is asserted at this stage.
+
+All results, operators, datasets, and diagnostics are provided for:
+
+- replication,
+- inspection,
+- discussion,
+- and independent validation.
