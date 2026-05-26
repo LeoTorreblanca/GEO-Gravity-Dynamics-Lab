@@ -25,7 +25,7 @@ El estudio se centra particularmente en:
 
 Este estudio es una extensión experimental del marco original GEO:
 
-👉 LINK AL MARCO ORIGINAL AQUÍ
+👉 LINK (https://github.com/LeoTorreblanca/GEO-hidden-geometry-framework)
 
 El marco GEO original desarrolla:
 
