@@ -1,3 +1,9 @@
+# Preprint
+
+Full experimental preprint PDF available here:
+
+👉 
+
 # GEO Gravity Dynamics Lab
 
 Experimental orbital dynamics study based on phase-modulated effective gravity operators derived from the GEO framework.
