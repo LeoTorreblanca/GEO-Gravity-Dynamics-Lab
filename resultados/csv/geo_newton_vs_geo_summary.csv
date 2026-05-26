@@ -1,0 +1,2 @@
+n_points,reference_radius,radial_drift_mean,radial_drift_std,radial_drift_max_abs,closure_error,angle_start_rad,angle_end_rad,angle_shift_rad,angle_shift_deg
+1000,0.8,-0.10595105003170258,0.08380281024633086,0.23755602702445233,1.5871724822836957,0.001125001401482756,3.070704423859747,3.069579422458264,175.8739457870633

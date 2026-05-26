@@ -1,0 +1,10 @@
+GEO ORBITAL DYNAMICS
+====================
+
+Dataset shape: (1000, 7)
+Mean radius: 0.6940489499682975
+Radius std: 0.08380281024633086
+Mean force: 1.7086179412467006
+Force std: 0.3228854114844955
+Mean gap: 0.0033388817900241096
+Mean brake: 4.530063867004834e-05

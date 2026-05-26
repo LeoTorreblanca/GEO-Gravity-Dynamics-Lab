@@ -1,0 +1,12 @@
+GEO ORBITAL DYNAMICS — NEWTON VS GEO
+====================================
+
+ n_points  reference_radius  radial_drift_mean  radial_drift_std  radial_drift_max_abs  closure_error  angle_start_rad  angle_end_rad  angle_shift_rad  angle_shift_deg
+     1000               0.8          -0.105951          0.083803              0.237556       1.587172         0.001125       3.070704         3.069579       175.873946
+
+Comparison CSV: /home/leone/GEO-Orbital-Dynamics/resultados/csv/geo_newton_vs_geo_comparison.csv
+Summary CSV: /home/leone/GEO-Orbital-Dynamics/resultados/csv/geo_newton_vs_geo_summary.csv
+Plots:
+ - docs/plots/geo_newton_vs_geo_orbit.png
+ - docs/plots/geo_newton_vs_geo_radial_drift.png
+ - docs/plots/geo_orbital_operators.png

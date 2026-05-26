@@ -1,0 +1,20 @@
+GEO ORBITAL DYNAMICS — FORMULA DIAGNOSTIC
+=========================================
+
+Public diagnostic formula:
+F_N(r) = 1 / r^2
+F_GEO(r,theta) = (1 / r^2) * cos(2 theta)
+F_GDD(r,theta) = [G * M_eff(r) / r^2] * cos(2 theta)
+
+ n_points  radius_min  radius_max  radius_mean  theta_start_rad  theta_end_rad  theta_span_rad  theta_span_deg  F_newton_mean  F_newton_std  F_GEO_public_mean  F_GEO_public_std  phase_mean  phase_std  ratio_mean  ratio_std  curvature_proxy_mean  curvature_proxy_std  gap_mean  freno_mean  f_net_mean
+     1000    0.562444         0.8     0.694049         0.001125      15.637075        15.63595      895.873946       2.173741      0.551487          -0.008383          1.584101    -0.00701    0.70461    -0.00701    0.70461          3.278627e-07             0.000081  0.003339    0.000045    1.708618
+
+Diagnostic CSV: /home/leone/GEO-Orbital-Dynamics/resultados/csv/geo_orbital_formula_diagnostic.csv
+Summary CSV: /home/leone/GEO-Orbital-Dynamics/resultados/csv/geo_orbital_formula_summary.csv
+Plots:
+ - docs/plots/geo_force_law_comparison.png
+ - docs/plots/geo_phase_operator.png
+ - docs/plots/geo_force_ratio.png
+ - docs/plots/geo_rosette_phase_colormap.png
+ - docs/plots/geo_phase_gap_brake.png
+ - docs/plots/geo_curvature_proxy.png
