@@ -2,7 +2,7 @@
 
 Full experimental preprint PDF available here:
 
-👉 
+👉 https://github.com/LeoTorreblanca/GEO-Gravity-Dynamics-Lab/blob/main/docs/plots/GEO_Gravity_Dynamics_Preprint.pdf
 
 # GEO Gravity Dynamics Lab
 
