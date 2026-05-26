@@ -4,7 +4,11 @@ Full experimental preprint PDF available here:
 
 👉 https://github.com/LeoTorreblanca/GEO-Gravity-Dynamics-Lab/blob/main/docs/plots/GEO_Gravity_Dynamics_Preprint.pdf
 
+---
 
+💻 Cite the Code (Zenodo DOI): 10.5281/zenodo.20400367
+
+---
 ### 🌐 Official Channels
 [![X Follow](https://img.shields.io/twitter/follow/GEO_Hidden?style=for-the-badge&logo=x&logoColor=white&color=000000)](https://x.com/GEO_Hidden)
 [![OSF Registration](https://img.shields.io/badge/OSF-Registration-blue?style=for-the-badge)](https://osf.io/5bk76)
